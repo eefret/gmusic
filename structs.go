@@ -75,3 +75,7 @@ type QueryResults struct {
 	albums  []Song
 	songs   []Song
 }
+
+type QueryResponse struct {
+	results QueryResults
+}
